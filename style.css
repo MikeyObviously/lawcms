@@ -1,0 +1,195 @@
+h1, li {
+	font-family: arial;
+}
+
+h1 {
+	margin-left: 10px;
+	color: #2a6eab;
+	font-family: 'Playfair Display SC', serif;
+}
+
+td {
+	color: #333;
+	font-size: 14px;
+}
+
+
+
+#header {
+	background-color: white;
+}
+
+#logo {
+	display: inline;
+	height: 100px;
+}
+
+#tagline {
+	display:inline;
+	position: relative;
+	bottom: 38px;
+	color: #444;
+}
+
+#resultTable tr:hover{
+	background-color: #FFFFB8;
+	color: black;
+}
+
+#resultTable {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#resultTable thead tr th{
+	border-bottom: 2px solid #444;
+	text-align: left;
+	padding-left: 8px;
+}
+
+#resultTable thead tr:hover{
+	background-color: white;
+}
+
+#resultTable tr td{
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+	padding: 4px 8px 4px 8px;
+	white-space: nowrap;
+}
+
+.even {
+	background-color: #F8FCFC;
+}
+
+.odd {
+	background-color: #d6e0e9;
+}
+
+.td-right {
+	border-right: none !important;
+}
+
+.dateInput {
+	width: 80px;
+}
+
+.typeOfCaseInput {
+	width: 100px;
+}
+
+#addForm label {
+	display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+	padding-right: 15px;
+	font-size: 20px;
+}
+
+#addForm textarea, select {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#addForm input {
+	display: block;
+	margin-bottom: 10px;
+	width: 200px;
+	height: 22px;
+	font-size: 16px;
+}
+
+#addForm select {
+	width: 204px;
+	height: 26px;
+	font-size: 16px;
+}
+
+#addForm input[type="submit"] {
+	height: 40px;
+}
+
+div.selectMenu {
+	width: 100%;
+	background-color: grey;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+div.selectMenu div {
+	display: inline-block;
+	width: 33%;
+	padding: 6px 0px 0px 24px;
+}
+
+div.selectMenu select {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+div.dataTables_info, div.dataTables_paginate {
+	padding-top: 10px;
+	font-size: 14px;
+	font-family: arial;
+}
+
+div.tableBottom {
+	background-color: #2a6eab;
+	border-radius: 10px;
+	color: white;
+	font-family: arial;
+}
+
+div.tableBottom div {
+	display: inline-block;
+}
+
+#error {
+	color: red;
+	font-size: 10px;
+	display: none;
+}
+
+.needsfilled {
+	background-color: red;
+	color: white;
+}
+
+
+ul#menu {
+    margin: 0 0 30px;
+    padding: 0;
+    overflow: auto;
+    list-style: none;
+	BACKGROUND-COLOR: #2a6eab;
+	border-radius: 10px;
+}
+    ul#menu li {
+        display: inline;
+        text-align: center;
+        line-height: 45px;
+    }
+        ul#menu li a {
+            width: 50%;
+            float: left;
+            display: block;
+			border-radius: 5px;
+			color: white;
+			text-decoration: none;
+			font-size: 18px;
+        }
+        .dvdr {
+            width: 1%;
+            float: left;
+            font-size: 1.5em;
+            color: #fff;
+        }
+            ul#menu li a:hover,
+            ul#menu li a:active {background: #acb7b7;}
+			
+			
+			
